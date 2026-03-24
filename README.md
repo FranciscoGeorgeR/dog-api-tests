@@ -175,7 +175,7 @@ mvn clean test -Dtest=BreedsListAllTest#shouldContainLabradorBreed
 
 ---
 
-## Relatório de Resultados (Allure) 
+## Relatório de Resultados
  
 O relatório completo com todos os resultados está disponível publicamente:
  
