@@ -1,0 +1,17 @@
+# Maven
+target/
+
+# Allure local binaries
+.allure/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
