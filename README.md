@@ -12,7 +12,7 @@ Projeto de automação de testes de API para a [Dog CEO API](https://dog.ceo/dog
 - [Pré-requisitos](#pré-requisitos)
 - [Configuração do Ambiente](#configuração-do-ambiente)
 - [Executando os Testes](#executando-os-testes)
-- [Relatório de Resultados](#Relatório-de-Testes-(Allure))
+- [Relatório de Resultados](#Relatório-de-Testes)
 - [Endpoints Testados](#endpoints-testados)
 - [Casos de Teste](#casos-de-teste)
 - [Pipeline CI/CD](#pipeline-cicd)
