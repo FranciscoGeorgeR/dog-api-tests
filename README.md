@@ -179,7 +179,7 @@ mvn clean test -Dtest=BreedsListAllTest#shouldContainLabradorBreed
  
 O relatório completo com todos os resultados está disponível publicamente:
  
-🔗 **[Ver Relatório Allure](https://franciscogeorger.github.io/dog-api-tests/4/index.html)**
+🔗 **[Ver Relatório Allure](https://franciscogeorger.github.io/dog-api-tests/)**
  
 > Atualizado automaticamente a cada push na branch `main`.
  
