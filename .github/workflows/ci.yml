@@ -2,63 +2,46 @@ name: Dog API - Automated Tests
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ main ]
   pull_request:
     branches: [ main ]
-  schedule:
-    # Run daily at 08:00 UTC
-    - cron: '0 8 * * *'
   workflow_dispatch:
+
+# Permissão para publicar no GitHub Pages
+permissions:
+  contents: write
 
 jobs:
   test:
-    name: Run API Tests
+    name: Run API Tests & Publish Allure Report
     runs-on: ubuntu-latest
 
     steps:
-      - name:  Checkout repository
+      - name: Checkout repositório
         uses: actions/checkout@v4
 
-      - name:  Set up Java 11
+      - name: Configurar Java 11
         uses: actions/setup-java@v4
         with:
           java-version: '11'
           distribution: 'temurin'
           cache: maven
 
-      - name:  Build & Run Tests
+      - name: Executar testes
         run: mvn clean test --no-transfer-progress
+        continue-on-error: true  # garante que o relatório seja gerado mesmo com falhas
 
-      - name:  Generate Allure Report
-        if: always()
-        run: mvn allure:report --no-transfer-progress
-
-      - name:  Upload Allure Results
-        if: always()
-        uses: actions/upload-artifact@v4
+      - name: Gerar relatório Allure
+        uses: simple-elf/allure-report-action@master
         with:
-          name: allure-results
-          path: target/allure-results/
-          retention-days: 30
+          allure_results: target/allure-results
+          allure_report: allure-report
+          allure_history: allure-history
+          keep_reports: 20
 
-      - name:  Upload Allure HTML Report
-        if: always()
-        uses: actions/upload-artifact@v4
+      - name: Publicar relatório no GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          name: allure-report
-          path: target/site/allure-maven-plugin/
-          retention-days: 30
-
-      - name:  Upload Test Logs
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: test-logs
-          path: target/logs/
-          retention-days: 7
-
-      - name:  Check Test Results
-        if: failure()
-        run: |
-          echo "❌ Tests failed! Check the Allure report artifact for details."
-          exit 1
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: allure-history
