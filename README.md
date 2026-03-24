@@ -196,8 +196,6 @@ mvn allure:report
 mvn allure:serve
 ```
 
-O relatório HTML é gerado em: `target/site/allure-maven-plugin/index.html`
-
 ### O que o relatório contém
 
 | Seção | Conteúdo |
