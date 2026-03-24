@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="20.335" tests="43" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\CursosUdemy\desafio-agibank\dog-api-tests\target\test-classes;C:\CursosUdemy\desafio-agibank\dog-api-tests\target\classes;C:\Users\georg\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\georg\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\georg\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\georg\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\georg\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\georg\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\georg\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\georg\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\georg\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\georg\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\georg\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\georg\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\georg\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\georg\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\georg\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\georg\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\georg\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\georg\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\georg\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\georg\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\georg\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\georg\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\georg\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\georg\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\georg\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\georg\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\georg\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\georg\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\georg\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\georg\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\georg\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\georg\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\georg\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\georg\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\georg\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\georg\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\georg\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\georg\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\georg\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\georg\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\georg\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\georg\.m2\repository\io\qameta\allure\allure-rest-assured\2.25.0\allure-rest-assured-2.25.0.jar;C:\Users\georg\.m2\repository\io\qameta\allure\allure-attachments\2.25.0\allure-attachments-2.25.0.jar;C:\Users\georg\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\georg\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\georg\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\georg\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\georg\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\georg\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\georg\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\georg\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\georg\AppData\Local\Temp\surefire4102136533630268035\surefirebooter-20260324102543156_3.jar C:\Users\georg\AppData\Local\Temp\surefire4102136533630268035 2026-03-24T10-25-43_037-jvmRun1 surefire-20260324102543156_1tmp surefire_0-20260324102543156_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\CursosUdemy\desafio-agibank\dog-api-tests\target\test-classes;C:\CursosUdemy\desafio-agibank\dog-api-tests\target\classes;C:\Users\georg\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\georg\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\georg\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\georg\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\georg\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\georg\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\georg\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\georg\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\georg\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\georg\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\georg\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\georg\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\georg\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\georg\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\georg\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\georg\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\georg\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\georg\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\georg\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\georg\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\georg\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\georg\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\georg\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\georg\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\georg\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\georg\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\georg\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\georg\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\georg\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\georg\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\georg\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\georg\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\georg\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\georg\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\georg\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\georg\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\georg\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\georg\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\georg\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\georg\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\georg\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\georg\.m2\repository\io\qameta\allure\allure-rest-assured\2.25.0\allure-rest-assured-2.25.0.jar;C:\Users\georg\.m2\repository\io\qameta\allure\allure-attachments\2.25.0\allure-attachments-2.25.0.jar;C:\Users\georg\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\georg\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\georg\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\georg\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\georg\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\georg\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\georg\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\georg\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;"/>
+    <property name="allure.results.directory" value="C:\CursosUdemy\desafio-agibank\dog-api-tests\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\georg"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\CursosUdemy\desafio-agibank\dog-api-tests"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\georg\AppData\Local\Temp\surefire4102136533630268035\surefirebooter-20260324102543156_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.9+7-LTS-338"/>
+    <property name="user.name" value="georg"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\georg\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\georg\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.9"/>
+    <property name="user.dir" value="C:\CursosUdemy\desafio-agibank\dog-api-tests"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\georg\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\georg\bin;C:\Users\georg\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Users\georg\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Eclipse Adoptium\jdk-17.0.18.8-hotspot\bin;C:\Python313\Scripts;C:\Python313;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk-21\bin;%JAVA_HOME%\lib;C:\Program Files\Eclipse Adoptium\jdk-17.0.18.8-hotspot;%JRE_HOME%;C:\curso-javaSelenium\lib\apache-maven\bin;C:\curso-javaSelenium\lib\apache-maven\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\dotnet;C:\Users\georg\AppData\Local\Android\Sdk\platform-tools;C:\flutter\bin;C:\Program Files\Microsoft SQL Server\170\Tools\Binn;C:\Program Files\k6;C:\Program Files\cursor\resources\app\bin;C:\Program Files\nodejs;C:\Tools\maven\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-25\bin;C:\Users\georg\AppData\Local\Microsoft\WindowsApps;C:\Users\georg\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\georg\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;%IntelliJ IDEA Community Edition%;C:\Users\georg\AppData\Roaming\npm;C:\Users\georg\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.9+7-LTS-338"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="breedNamesMustBeLowercase" classname="com.dogapi.tests.BreedsListAllTest" time="3.283">
+    <system-out><![CDATA[10:25:44.155 [main] DEBUG org.testng.TestNG -- suiteXmlPath: "C:\CursosUdemy\desafio-agibank\dog-api-tests\src\test\resources\testng.xml"
+10:25:44.278 [main] INFO org.testng.internal.Utils -- [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+10:25:44.829 [main] WARN org.testng.TestNG -- Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+10:25:44.829 [main] WARN org.testng.TestNG -- Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+10:25:44.829 [main] WARN org.testng.TestNG -- Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+...
+... TestNG 7.9.0 by Cédric Beust (cedric@beust.com)
+...
+
+10:25:45.221 [main] INFO com.dogapi.utils.BaseTest -- === Initialising Dog API Test Suite ===
+10:25:45.221 [main] INFO com.dogapi.utils.BaseTest -- Base URL: https://dog.ceo/api
+10:25:46.029 [main] INFO com.dogapi.utils.BaseTest -- REST Assured configuration applied.
+Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/list/all
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="houndShouldHaveKnownSubBreeds" classname="com.dogapi.tests.BreedsListAllTest" time="0.306">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/list/all
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:49.638 [main] INFO com.dogapi.utils.BaseTest --  hound sub-breeds: [afghan, basset, blood, english, ibizan, plott, walker]
+]]></system-out>
+  </testcase>
+  <testcase name="messageShouldBeNonEmptyMap" classname="com.dogapi.tests.BreedsListAllTest" time="0.298">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/list/all
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:49.938 [main] INFO com.dogapi.utils.BaseTest --  Total breeds found: 108
+]]></system-out>
+  </testcase>
+  <testcase name="responseTimeShouldBeAcceptable" classname="com.dogapi.tests.BreedsListAllTest" time="0.29">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/list/all
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:50.226 [main] INFO com.dogapi.utils.BaseTest -- Response time: 269 ms
+]]></system-out>
+  </testcase>
+  <testcase name="shouldContainBulldogBreed" classname="com.dogapi.tests.BreedsListAllTest" time="0.294">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/list/all
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:50.523 [main] INFO com.dogapi.utils.BaseTest --  Breed 'bulldog' found in list
+]]></system-out>
+  </testcase>
+  <testcase name="shouldContainHoundBreed" classname="com.dogapi.tests.BreedsListAllTest" time="0.294">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/list/all
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:50.817 [main] INFO com.dogapi.utils.BaseTest --  Breed 'hound' found in list
+]]></system-out>
+  </testcase>
+  <testcase name="shouldContainLabradorBreed" classname="com.dogapi.tests.BreedsListAllTest" time="0.292">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/list/all
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:51.109 [main] INFO com.dogapi.utils.BaseTest --  Breed 'labrador' found in list
+]]></system-out>
+  </testcase>
+  <testcase name="shouldContainPoodleBreed" classname="com.dogapi.tests.BreedsListAllTest" time="0.291">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/list/all
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:51.400 [main] INFO com.dogapi.utils.BaseTest --  Breed 'poodle' found in list
+]]></system-out>
+  </testcase>
+  <testcase name="shouldHaveMandatoryResponseFields" classname="com.dogapi.tests.BreedsListAllTest" time="0.862">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/list/all
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="shouldReturn200WithJsonContentType" classname="com.dogapi.tests.BreedsListAllTest" time="0.29">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/list/all
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:52.554 [main] INFO com.dogapi.utils.BaseTest --  GET /breeds/list/all returned HTTP 200
+]]></system-out>
+  </testcase>
+  <testcase name="statusFieldShouldBeSuccess" classname="com.dogapi.tests.BreedsListAllTest" time="0.3">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/list/all
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="subBreedValuesMustAlwaysBeArrays" classname="com.dogapi.tests.BreedsListAllTest" time="0.369">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/list/all
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:53.224 [main] INFO com.dogapi.utils.BaseTest --  All 108 breeds have valid sub-breed arrays
+]]></system-out>
+  </testcase>
+  <testcase name="imagListMustBeNonEmptyForLabrador" classname="com.dogapi.tests.BreedImagesTest" time="0.304">
+    <system-out><![CDATA[10:25:53.254 [main] INFO com.dogapi.utils.BaseTest -- === Initialising Dog API Test Suite ===
+10:25:53.254 [main] INFO com.dogapi.utils.BaseTest -- Base URL: https://dog.ceo/api
+10:25:53.255 [main] INFO com.dogapi.utils.BaseTest -- REST Assured configuration applied.
+Request method:	GET
+Request URI:	https://dog.ceo/api/breed/labrador/images
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	breed=labrador
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:53.558 [main] INFO com.dogapi.utils.BaseTest --  189 images found for labrador
+]]></system-out>
+  </testcase>
+  <testcase name="imageMessageMustBeAnArrayOfStrings" classname="com.dogapi.tests.BreedImagesTest" time="0.337">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breed/retriever/images
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	breed=retriever
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="imageUrlsMustContainBreedName" classname="com.dogapi.tests.BreedImagesTest" time="0.299">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breed/labrador/images
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	breed=labrador
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="imageUrlsMustMatchCdnPattern" classname="com.dogapi.tests.BreedImagesTest" time="0.3">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breed/hound/images
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	breed=hound
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:54.495 [main] INFO com.dogapi.utils.BaseTest --  All 808 hound image URLs match CDN pattern
+]]></system-out>
+  </testcase>
+  <testcase name="imageUrlsMustUseHttps" classname="com.dogapi.tests.BreedImagesTest" time="0.297">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breed/poodle/images
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	breed=poodle
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="invalidBreedErrorResponseMustContainMessage" classname="com.dogapi.tests.BreedImagesTest" time="0.295">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breed/invalidbreedxyz/images
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	breed=invalidbreedxyz
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="invalidBreedShouldReturn404" classname="com.dogapi.tests.BreedImagesTest" time="0.276">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breed/invalidbreedxyz/images
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	breed=invalidbreedxyz
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:55.364 [main] INFO com.dogapi.utils.BaseTest --  HTTP 404 returned for invalid breed: invalidbreedxyz
+]]></system-out>
+  </testcase>
+  <testcase name="invalidBreedStatusFieldShouldBeError" classname="com.dogapi.tests.BreedImagesTest" time="0.285">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breed/invalidbreedxyz/images
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	breed=invalidbreedxyz
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="responseTimeShouldBeAcceptable" classname="com.dogapi.tests.BreedImagesTest" time="0.281">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breed/labrador/images
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	breed=labrador
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:55.931 [main] INFO com.dogapi.utils.BaseTest -- Breed images response time: 270 ms
+]]></system-out>
+  </testcase>
+  <testcase name="shouldReturn200ForKnownBreed[labrador](1)" classname="com.dogapi.tests.BreedImagesTest" time="0.285">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breed/labrador/images
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	breed=labrador
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:56.216 [main] INFO com.dogapi.utils.BaseTest --  HTTP 200 for breed: labrador
+]]></system-out>
+  </testcase>
+  <testcase name="shouldReturn200ForKnownBreed[hound](2)" classname="com.dogapi.tests.BreedImagesTest" time="0.483">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breed/hound/images
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	breed=hound
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:56.700 [main] INFO com.dogapi.utils.BaseTest --  HTTP 200 for breed: hound
+]]></system-out>
+  </testcase>
+  <testcase name="shouldReturn200ForKnownBreed[bulldog](3)" classname="com.dogapi.tests.BreedImagesTest" time="0.289">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breed/bulldog/images
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	breed=bulldog
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:56.989 [main] INFO com.dogapi.utils.BaseTest --  HTTP 200 for breed: bulldog
+]]></system-out>
+  </testcase>
+  <testcase name="shouldReturn200ForKnownBreed[retriever](4)" classname="com.dogapi.tests.BreedImagesTest" time="0.284">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breed/retriever/images
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	breed=retriever
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:57.273 [main] INFO com.dogapi.utils.BaseTest --  HTTP 200 for breed: retriever
+]]></system-out>
+  </testcase>
+  <testcase name="shouldReturn200ForKnownBreed[poodle](5)" classname="com.dogapi.tests.BreedImagesTest" time="0.281">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breed/poodle/images
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	breed=poodle
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:57.554 [main] INFO com.dogapi.utils.BaseTest --  HTTP 200 for breed: poodle
+]]></system-out>
+  </testcase>
+  <testcase name="statusFieldShouldBeSuccessForValidBreed" classname="com.dogapi.tests.BreedImagesTest" time="0.286">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breed/labrador/images
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	breed=labrador
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="subBreedImagesShouldReturn200[hound, afghan](1)" classname="com.dogapi.tests.BreedImagesTest" time="0.285">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breed/hound/afghan/images
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	breed=hound
+				subBreed=afghan
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:58.126 [main] INFO com.dogapi.utils.BaseTest --  Sub-breed images OK: hound/afghan
+]]></system-out>
+  </testcase>
+  <testcase name="subBreedImagesShouldReturn200[hound, blood](2)" classname="com.dogapi.tests.BreedImagesTest" time="0.286">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breed/hound/blood/images
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	breed=hound
+				subBreed=blood
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:58.413 [main] INFO com.dogapi.utils.BaseTest --  Sub-breed images OK: hound/blood
+]]></system-out>
+  </testcase>
+  <testcase name="subBreedImagesShouldReturn200[bulldog, english](3)" classname="com.dogapi.tests.BreedImagesTest" time="0.28">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breed/bulldog/english/images
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	breed=bulldog
+				subBreed=english
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:58.694 [main] INFO com.dogapi.utils.BaseTest --  Sub-breed images OK: bulldog/english
+]]></system-out>
+  </testcase>
+  <testcase name="subBreedImagesShouldReturn200[retriever, golden](4)" classname="com.dogapi.tests.BreedImagesTest" time="0.288">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breed/retriever/golden/images
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	breed=retriever
+				subBreed=golden
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:25:58.982 [main] INFO com.dogapi.utils.BaseTest --  Sub-breed images OK: retriever/golden
+]]></system-out>
+  </testcase>
+  <testcase name="contentTypeMustBeJson" classname="com.dogapi.tests.RandomImageTest" time="0.291">
+    <system-out><![CDATA[10:25:58.987 [main] INFO com.dogapi.utils.BaseTest -- === Initialising Dog API Test Suite ===
+10:25:58.987 [main] INFO com.dogapi.utils.BaseTest -- Base URL: https://dog.ceo/api
+10:25:58.988 [main] INFO com.dogapi.utils.BaseTest -- REST Assured configuration applied.
+Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/image/random
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="endpointMustBeConsistentlyReachable" classname="com.dogapi.tests.RandomImageTest" time="0.848">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/image/random
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/image/random
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/image/random
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:26:00.126 [main] INFO com.dogapi.utils.BaseTest --  3 consecutive calls all returned HTTP 200
+]]></system-out>
+  </testcase>
+  <testcase name="imageUrlMustContainBreedsCdnPath" classname="com.dogapi.tests.RandomImageTest" time="0.291">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/image/random
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="imageUrlMustHaveValidExtension" classname="com.dogapi.tests.RandomImageTest" time="0.286">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/image/random
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="imageUrlMustMatchCdnPattern" classname="com.dogapi.tests.RandomImageTest" time="0.282">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/image/random
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:26:00.986 [main] INFO com.dogapi.utils.BaseTest --  Random image URL: https://images.dog.ceo/breeds/terrier-sealyham/n02095889_6583.jpg
+]]></system-out>
+  </testcase>
+  <testcase name="imageUrlMustUseHttps" classname="com.dogapi.tests.RandomImageTest" time="0.282">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/image/random
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="messageMustBeNonEmptyString" classname="com.dogapi.tests.RandomImageTest" time="0.294">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/image/random
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="repeatedCallsShouldReturnVariedImages" classname="com.dogapi.tests.RandomImageTest" time="1.412">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/image/random
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/image/random
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/image/random
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/image/random
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/image/random
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:26:02.974 [main] INFO com.dogapi.utils.BaseTest --  5 calls → 5 distinct URLs: [https://images.dog.ceo/breeds/waterdog-spanish/20180706_194432.jpg, https://images.dog.ceo/breeds/chippiparai-indian/Indian-Chippiparai.jpg, https://images.dog.ceo/breeds/groenendael/n02105056_6639.jpg, https://images.dog.ceo/breeds/retriever-curly/n02099429_1465.jpg, https://images.dog.ceo/breeds/australian-shepherd/pepper.jpg]
+]]></system-out>
+  </testcase>
+  <testcase name="responseMustHaveMandatoryFields" classname="com.dogapi.tests.RandomImageTest" time="0.295">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/image/random
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="responseTimeShouldBeAcceptable" classname="com.dogapi.tests.RandomImageTest" time="0.282">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/image/random
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:26:03.553 [main] INFO com.dogapi.utils.BaseTest -- Random image response time: 272 ms
+]]></system-out>
+  </testcase>
+  <testcase name="shouldReturn200" classname="com.dogapi.tests.RandomImageTest" time="0.286">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/image/random
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+10:26:03.839 [main] INFO com.dogapi.utils.BaseTest --  GET /breeds/image/random returned HTTP 200
+]]></system-out>
+  </testcase>
+  <testcase name="statusFieldShouldBeSuccess" classname="com.dogapi.tests.RandomImageTest" time="0.289">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://dog.ceo/api/breeds/image/random
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+</testsuite>

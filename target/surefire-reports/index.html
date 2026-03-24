@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Dog API - Full Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Dog_API___Full_Test_Suite" class="navigator-link ">
+                    <span>C:\CursosUdemy\desafio-agibank\dog-api-tests\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Dog_API___Full_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Dog_API___Full_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Dog_API___Full_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Dog_API___Full_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Dog_API___Full_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Dog_API___Full_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">43 methods,   43 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" class="hide-methods passed suite-Dog_API___Full_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Dog_API___Full_Test_Suite -->
+                      <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" class="show-methods passed suite-Dog_API___Full_Test_Suite"> (show)</a> <!-- show-methods passed suite-Dog_API___Full_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Dog_API___Full_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedsListAllTest" class="method navigator-link" hash-for-method="breedNamesMustBeLowercase">breedNamesMustBeLowercase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.RandomImageTest" class="method navigator-link" hash-for-method="contentTypeMustBeJson">contentTypeMustBeJson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.RandomImageTest" class="method navigator-link" hash-for-method="endpointMustBeConsistentlyReachable">endpointMustBeConsistentlyReachable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedsListAllTest" class="method navigator-link" hash-for-method="houndShouldHaveKnownSubBreeds">houndShouldHaveKnownSubBreeds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedImagesTest" class="method navigator-link" hash-for-method="imagListMustBeNonEmptyForLabrador">imagListMustBeNonEmptyForLabrador</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedImagesTest" class="method navigator-link" hash-for-method="imageMessageMustBeAnArrayOfStrings">imageMessageMustBeAnArrayOfStrings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.RandomImageTest" class="method navigator-link" hash-for-method="imageUrlMustContainBreedsCdnPath">imageUrlMustContainBreedsCdnPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.RandomImageTest" class="method navigator-link" hash-for-method="imageUrlMustHaveValidExtension">imageUrlMustHaveValidExtension</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.RandomImageTest" class="method navigator-link" hash-for-method="imageUrlMustMatchCdnPattern">imageUrlMustMatchCdnPattern</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.RandomImageTest" class="method navigator-link" hash-for-method="imageUrlMustUseHttps">imageUrlMustUseHttps</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedImagesTest" class="method navigator-link" hash-for-method="imageUrlsMustContainBreedName">imageUrlsMustContainBreedName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedImagesTest" class="method navigator-link" hash-for-method="imageUrlsMustMatchCdnPattern">imageUrlsMustMatchCdnPattern</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedImagesTest" class="method navigator-link" hash-for-method="imageUrlsMustUseHttps">imageUrlsMustUseHttps</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedImagesTest" class="method navigator-link" hash-for-method="invalidBreedErrorResponseMustContainMessage">invalidBreedErrorResponseMustContainMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedImagesTest" class="method navigator-link" hash-for-method="invalidBreedShouldReturn404">invalidBreedShouldReturn404</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedImagesTest" class="method navigator-link" hash-for-method="invalidBreedStatusFieldShouldBeError">invalidBreedStatusFieldShouldBeError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.RandomImageTest" class="method navigator-link" hash-for-method="messageMustBeNonEmptyString">messageMustBeNonEmptyString</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedsListAllTest" class="method navigator-link" hash-for-method="messageShouldBeNonEmptyMap">messageShouldBeNonEmptyMap</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.RandomImageTest" class="method navigator-link" hash-for-method="repeatedCallsShouldReturnVariedImages">repeatedCallsShouldReturnVariedImages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.RandomImageTest" class="method navigator-link" hash-for-method="responseMustHaveMandatoryFields">responseMustHaveMandatoryFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedsListAllTest" class="method navigator-link" hash-for-method="responseTimeShouldBeAcceptable">responseTimeShouldBeAcceptable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedImagesTest" class="method navigator-link" hash-for-method="responseTimeShouldBeAcceptable">responseTimeShouldBeAcceptable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.RandomImageTest" class="method navigator-link" hash-for-method="responseTimeShouldBeAcceptable">responseTimeShouldBeAcceptable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedsListAllTest" class="method navigator-link" hash-for-method="shouldContainBulldogBreed">shouldContainBulldogBreed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedsListAllTest" class="method navigator-link" hash-for-method="shouldContainHoundBreed">shouldContainHoundBreed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedsListAllTest" class="method navigator-link" hash-for-method="shouldContainLabradorBreed">shouldContainLabradorBreed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedsListAllTest" class="method navigator-link" hash-for-method="shouldContainPoodleBreed">shouldContainPoodleBreed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedsListAllTest" class="method navigator-link" hash-for-method="shouldHaveMandatoryResponseFields">shouldHaveMandatoryResponseFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.RandomImageTest" class="method navigator-link" hash-for-method="shouldReturn200">shouldReturn200</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedImagesTest" class="method navigator-link" hash-for-method="shouldReturn200ForKnownBreed(retriever)">shouldReturn200ForKnownBreed(retriever)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedImagesTest" class="method navigator-link" hash-for-method="shouldReturn200ForKnownBreed(labrador)">shouldReturn200ForKnownBreed(labrador)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedImagesTest" class="method navigator-link" hash-for-method="shouldReturn200ForKnownBreed(hound)">shouldReturn200ForKnownBreed(hound)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedImagesTest" class="method navigator-link" hash-for-method="shouldReturn200ForKnownBreed(bulldog)">shouldReturn200ForKnownBreed(bulldog)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedImagesTest" class="method navigator-link" hash-for-method="shouldReturn200ForKnownBreed(poodle)">shouldReturn200ForKnownBreed(poodle)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedsListAllTest" class="method navigator-link" hash-for-method="shouldReturn200WithJsonContentType">shouldReturn200WithJsonContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedsListAllTest" class="method navigator-link" hash-for-method="statusFieldShouldBeSuccess">statusFieldShouldBeSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.RandomImageTest" class="method navigator-link" hash-for-method="statusFieldShouldBeSuccess">statusFieldShouldBeSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedImagesTest" class="method navigator-link" hash-for-method="statusFieldShouldBeSuccessForValidBreed">statusFieldShouldBeSuccessForValidBreed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedImagesTest" class="method navigator-link" hash-for-method="subBreedImagesShouldReturn200(bulldog, english)">subBreedImagesShouldReturn200(bulldog, english)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedImagesTest" class="method navigator-link" hash-for-method="subBreedImagesShouldReturn200(retriever, golden)">subBreedImagesShouldReturn200(retriever, golden)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedImagesTest" class="method navigator-link" hash-for-method="subBreedImagesShouldReturn200(hound, blood)">subBreedImagesShouldReturn200(hound, blood)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedImagesTest" class="method navigator-link" hash-for-method="subBreedImagesShouldReturn200(hound, afghan)">subBreedImagesShouldReturn200(hound, afghan)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dog_API___Full_Test_Suite" title="com.dogapi.tests.BreedsListAllTest" class="method navigator-link" hash-for-method="subBreedValuesMustAlwaysBeArrays">subBreedValuesMustAlwaysBeArrays</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Dog_API___Full_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Dog_API___Full_Test_Suite" class="panel Dog_API___Full_Test_Suite">
+          <div class="suite-Dog_API___Full_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dogapi.tests.BreedsListAllTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="breedNamesMustBeLowercase">
+                  </a> <!-- breedNamesMustBeLowercase -->
+                  <span class="method-name">breedNamesMustBeLowercase</span>
+                  <em>
+(Breed names must be lowercase strings with no whitespace)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="houndShouldHaveKnownSubBreeds">
+                  </a> <!-- houndShouldHaveKnownSubBreeds -->
+                  <span class="method-name">houndShouldHaveKnownSubBreeds</span>
+                  <em>
+('hound' sub-breeds should include known sub-types)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="messageShouldBeNonEmptyMap">
+                  </a> <!-- messageShouldBeNonEmptyMap -->
+                  <span class="method-name">messageShouldBeNonEmptyMap</span>
+                  <em>
+(Message should contain a non-empty breeds map)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="responseTimeShouldBeAcceptable">
+                  </a> <!-- responseTimeShouldBeAcceptable -->
+                  <span class="method-name">responseTimeShouldBeAcceptable</span>
+                  <em>
+(Response time should be under 5 seconds)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldContainBulldogBreed">
+                  </a> <!-- shouldContainBulldogBreed -->
+                  <span class="method-name">shouldContainBulldogBreed</span>
+                  <em>
+(Known breed 'bulldog' must be present in the list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldContainHoundBreed">
+                  </a> <!-- shouldContainHoundBreed -->
+                  <span class="method-name">shouldContainHoundBreed</span>
+                  <em>
+(Known breed 'hound' must be present in the list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldContainLabradorBreed">
+                  </a> <!-- shouldContainLabradorBreed -->
+                  <span class="method-name">shouldContainLabradorBreed</span>
+                  <em>
+(Known breed 'labrador' must be present in the list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldContainPoodleBreed">
+                  </a> <!-- shouldContainPoodleBreed -->
+                  <span class="method-name">shouldContainPoodleBreed</span>
+                  <em>
+(Known breed 'poodle' must be present in the list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldHaveMandatoryResponseFields">
+                  </a> <!-- shouldHaveMandatoryResponseFields -->
+                  <span class="method-name">shouldHaveMandatoryResponseFields</span>
+                  <em>
+(Response body must contain 'message' and 'status' fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldReturn200WithJsonContentType">
+                  </a> <!-- shouldReturn200WithJsonContentType -->
+                  <span class="method-name">shouldReturn200WithJsonContentType</span>
+                  <em>
+(GET /breeds/list/all should return HTTP 200)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="statusFieldShouldBeSuccess">
+                  </a> <!-- statusFieldShouldBeSuccess -->
+                  <span class="method-name">statusFieldShouldBeSuccess</span>
+                  <em>
+(Status field must equal 'success')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subBreedValuesMustAlwaysBeArrays">
+                  </a> <!-- subBreedValuesMustAlwaysBeArrays -->
+                  <span class="method-name">subBreedValuesMustAlwaysBeArrays</span>
+                  <em>
+(Sub-breeds list values must always be arrays (never null))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Dog_API___Full_Test_Suite-class-passed -->
+          <div class="suite-Dog_API___Full_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dogapi.tests.RandomImageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contentTypeMustBeJson">
+                  </a> <!-- contentTypeMustBeJson -->
+                  <span class="method-name">contentTypeMustBeJson</span>
+                  <em>
+(Response Content-Type header must be application/json)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="endpointMustBeConsistentlyReachable">
+                  </a> <!-- endpointMustBeConsistentlyReachable -->
+                  <span class="method-name">endpointMustBeConsistentlyReachable</span>
+                  <em>
+(Endpoint must be consistently reachable (idempotency check))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="imageUrlMustContainBreedsCdnPath">
+                  </a> <!-- imageUrlMustContainBreedsCdnPath -->
+                  <span class="method-name">imageUrlMustContainBreedsCdnPath</span>
+                  <em>
+(Image URL must contain 'images.dog.ceo/breeds/' in the path)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="imageUrlMustHaveValidExtension">
+                  </a> <!-- imageUrlMustHaveValidExtension -->
+                  <span class="method-name">imageUrlMustHaveValidExtension</span>
+                  <em>
+(Image URL must end with a valid image file extension)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="imageUrlMustMatchCdnPattern">
+                  </a> <!-- imageUrlMustMatchCdnPattern -->
+                  <span class="method-name">imageUrlMustMatchCdnPattern</span>
+                  <em>
+(Image URL must match the expected CDN pattern)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="imageUrlMustUseHttps">
+                  </a> <!-- imageUrlMustUseHttps -->
+                  <span class="method-name">imageUrlMustUseHttps</span>
+                  <em>
+(Image URL must use HTTPS scheme)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="messageMustBeNonEmptyString">
+                  </a> <!-- messageMustBeNonEmptyString -->
+                  <span class="method-name">messageMustBeNonEmptyString</span>
+                  <em>
+(Message field must be a non-empty string)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="repeatedCallsShouldReturnVariedImages">
+                  </a> <!-- repeatedCallsShouldReturnVariedImages -->
+                  <span class="method-name">repeatedCallsShouldReturnVariedImages</span>
+                  <em>
+(Repeated calls should return images from different breeds (randomness check))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="responseMustHaveMandatoryFields">
+                  </a> <!-- responseMustHaveMandatoryFields -->
+                  <span class="method-name">responseMustHaveMandatoryFields</span>
+                  <em>
+(Response must contain 'message' and 'status' fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="responseTimeShouldBeAcceptable">
+                  </a> <!-- responseTimeShouldBeAcceptable -->
+                  <span class="method-name">responseTimeShouldBeAcceptable</span>
+                  <em>
+(Response time should be under 5 seconds)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldReturn200">
+                  </a> <!-- shouldReturn200 -->
+                  <span class="method-name">shouldReturn200</span>
+                  <em>
+(GET /breeds/image/random should return HTTP 200)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="statusFieldShouldBeSuccess">
+                  </a> <!-- statusFieldShouldBeSuccess -->
+                  <span class="method-name">statusFieldShouldBeSuccess</span>
+                  <em>
+(Status field must equal 'success')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Dog_API___Full_Test_Suite-class-passed -->
+          <div class="suite-Dog_API___Full_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dogapi.tests.BreedImagesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="imagListMustBeNonEmptyForLabrador">
+                  </a> <!-- imagListMustBeNonEmptyForLabrador -->
+                  <span class="method-name">imagListMustBeNonEmptyForLabrador</span>
+                  <em>
+(Image list for labrador must be non-empty)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="imageMessageMustBeAnArrayOfStrings">
+                  </a> <!-- imageMessageMustBeAnArrayOfStrings -->
+                  <span class="method-name">imageMessageMustBeAnArrayOfStrings</span>
+                  <em>
+(Image list must be an array of strings)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="imageUrlsMustContainBreedName">
+                  </a> <!-- imageUrlsMustContainBreedName -->
+                  <span class="method-name">imageUrlsMustContainBreedName</span>
+                  <em>
+(Image URL path must contain the requested breed name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="imageUrlsMustMatchCdnPattern">
+                  </a> <!-- imageUrlsMustMatchCdnPattern -->
+                  <span class="method-name">imageUrlsMustMatchCdnPattern</span>
+                  <em>
+(All image URLs must match the expected CDN pattern)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="imageUrlsMustUseHttps">
+                  </a> <!-- imageUrlsMustUseHttps -->
+                  <span class="method-name">imageUrlsMustUseHttps</span>
+                  <em>
+(Image URLs must use HTTPS scheme)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidBreedErrorResponseMustContainMessage">
+                  </a> <!-- invalidBreedErrorResponseMustContainMessage -->
+                  <span class="method-name">invalidBreedErrorResponseMustContainMessage</span>
+                  <em>
+(Error response for invalid breed must contain a non-empty message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidBreedShouldReturn404">
+                  </a> <!-- invalidBreedShouldReturn404 -->
+                  <span class="method-name">invalidBreedShouldReturn404</span>
+                  <em>
+(Invalid breed should return HTTP 404)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidBreedStatusFieldShouldBeError">
+                  </a> <!-- invalidBreedStatusFieldShouldBeError -->
+                  <span class="method-name">invalidBreedStatusFieldShouldBeError</span>
+                  <em>
+(Invalid breed response status field should be 'error')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="responseTimeShouldBeAcceptable">
+                  </a> <!-- responseTimeShouldBeAcceptable -->
+                  <span class="method-name">responseTimeShouldBeAcceptable</span>
+                  <em>
+(Response time for breed images must be under 8 seconds)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldReturn200ForKnownBreed(retriever)">
+                  </a> <!-- shouldReturn200ForKnownBreed(retriever) -->
+                  <span class="method-name">shouldReturn200ForKnownBreed</span>
+                  <span class="parameters">(retriever)</span>
+                  <em>
+(GET /breed/{breed}/images should return HTTP 200 for known breeds)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldReturn200ForKnownBreed(labrador)">
+                  </a> <!-- shouldReturn200ForKnownBreed(labrador) -->
+                  <span class="method-name">shouldReturn200ForKnownBreed</span>
+                  <span class="parameters">(labrador)</span>
+                  <em>
+(GET /breed/{breed}/images should return HTTP 200 for known breeds)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldReturn200ForKnownBreed(hound)">
+                  </a> <!-- shouldReturn200ForKnownBreed(hound) -->
+                  <span class="method-name">shouldReturn200ForKnownBreed</span>
+                  <span class="parameters">(hound)</span>
+                  <em>
+(GET /breed/{breed}/images should return HTTP 200 for known breeds)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldReturn200ForKnownBreed(bulldog)">
+                  </a> <!-- shouldReturn200ForKnownBreed(bulldog) -->
+                  <span class="method-name">shouldReturn200ForKnownBreed</span>
+                  <span class="parameters">(bulldog)</span>
+                  <em>
+(GET /breed/{breed}/images should return HTTP 200 for known breeds)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldReturn200ForKnownBreed(poodle)">
+                  </a> <!-- shouldReturn200ForKnownBreed(poodle) -->
+                  <span class="method-name">shouldReturn200ForKnownBreed</span>
+                  <span class="parameters">(poodle)</span>
+                  <em>
+(GET /breed/{breed}/images should return HTTP 200 for known breeds)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="statusFieldShouldBeSuccessForValidBreed">
+                  </a> <!-- statusFieldShouldBeSuccessForValidBreed -->
+                  <span class="method-name">statusFieldShouldBeSuccessForValidBreed</span>
+                  <em>
+(Response status field must be 'success' for labrador)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subBreedImagesShouldReturn200(bulldog, english)">
+                  </a> <!-- subBreedImagesShouldReturn200(bulldog, english) -->
+                  <span class="method-name">subBreedImagesShouldReturn200</span>
+                  <span class="parameters">(bulldog,english)</span>
+                  <em>
+(Sub-breed images endpoint should return HTTP 200)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subBreedImagesShouldReturn200(retriever, golden)">
+                  </a> <!-- subBreedImagesShouldReturn200(retriever, golden) -->
+                  <span class="method-name">subBreedImagesShouldReturn200</span>
+                  <span class="parameters">(retriever,golden)</span>
+                  <em>
+(Sub-breed images endpoint should return HTTP 200)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subBreedImagesShouldReturn200(hound, blood)">
+                  </a> <!-- subBreedImagesShouldReturn200(hound, blood) -->
+                  <span class="method-name">subBreedImagesShouldReturn200</span>
+                  <span class="parameters">(hound,blood)</span>
+                  <em>
+(Sub-breed images endpoint should return HTTP 200)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subBreedImagesShouldReturn200(hound, afghan)">
+                  </a> <!-- subBreedImagesShouldReturn200(hound, afghan) -->
+                  <span class="method-name">subBreedImagesShouldReturn200</span>
+                  <span class="parameters">(hound,afghan)</span>
+                  <em>
+(Sub-breed images endpoint should return HTTP 200)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Dog_API___Full_Test_Suite-class-passed -->
+        </div> <!-- panel Dog_API___Full_Test_Suite -->
+        <div panel-name="test-xml-Dog_API___Full_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\CursosUdemy\desafio-agibank\dog-api-tests\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Dog API - Full Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;io.qameta.allure.testng.AllureTestNg&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Breeds List All - GET /breeds/list/all&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dogapi.tests.BreedsListAllTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Breeds List All - GET /breeds/list/all --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Breed Images - GET /breed/{breed}/images&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dogapi.tests.BreedImagesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Breed Images - GET /breed/{breed}/images --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Random Image - GET /breeds/image/random&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dogapi.tests.RandomImageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Random Image - GET /breeds/image/random --&gt;
+&lt;/suite&gt; &lt;!-- Dog API - Full Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Dog_API___Full_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Dog API - Full Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Breeds List All - GET /breeds/list/all (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Breed Images - GET /breed/{breed}/images (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Random Image - GET /breeds/image/random (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Dog_API___Full_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Dog API - Full Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Dog_API___Full_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Dog API - Full Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Dog_API___Full_Test_Suite');
+function tableData_Dog_API___Full_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(43);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'breedNamesMustBeLowercase')
+data.setCell(0, 2, 'com.dogapi.tests.BreedsListAllTest')
+data.setCell(0, 3, 3231);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'repeatedCallsShouldReturnVariedImages')
+data.setCell(1, 2, 'com.dogapi.tests.RandomImageTest')
+data.setCell(1, 3, 1411);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'shouldHaveMandatoryResponseFields')
+data.setCell(2, 2, 'com.dogapi.tests.BreedsListAllTest')
+data.setCell(2, 3, 861);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'endpointMustBeConsistentlyReachable')
+data.setCell(3, 2, 'com.dogapi.tests.RandomImageTest')
+data.setCell(3, 3, 846);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'shouldReturn200ForKnownBreed')
+data.setCell(4, 2, 'com.dogapi.tests.BreedImagesTest')
+data.setCell(4, 3, 482);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'subBreedValuesMustAlwaysBeArrays')
+data.setCell(5, 2, 'com.dogapi.tests.BreedsListAllTest')
+data.setCell(5, 3, 368);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'imageMessageMustBeAnArrayOfStrings')
+data.setCell(6, 2, 'com.dogapi.tests.BreedImagesTest')
+data.setCell(6, 3, 336);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'houndShouldHaveKnownSubBreeds')
+data.setCell(7, 2, 'com.dogapi.tests.BreedsListAllTest')
+data.setCell(7, 3, 303);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'imagListMustBeNonEmptyForLabrador')
+data.setCell(8, 2, 'com.dogapi.tests.BreedImagesTest')
+data.setCell(8, 3, 303);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'statusFieldShouldBeSuccess')
+data.setCell(9, 2, 'com.dogapi.tests.BreedsListAllTest')
+data.setCell(9, 3, 299);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'imageUrlsMustMatchCdnPattern')
+data.setCell(10, 2, 'com.dogapi.tests.BreedImagesTest')
+data.setCell(10, 3, 299);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'imageUrlsMustContainBreedName')
+data.setCell(11, 2, 'com.dogapi.tests.BreedImagesTest')
+data.setCell(11, 3, 298);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'messageShouldBeNonEmptyMap')
+data.setCell(12, 2, 'com.dogapi.tests.BreedsListAllTest')
+data.setCell(12, 3, 296);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'imageUrlsMustUseHttps')
+data.setCell(13, 2, 'com.dogapi.tests.BreedImagesTest')
+data.setCell(13, 3, 296);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'responseMustHaveMandatoryFields')
+data.setCell(14, 2, 'com.dogapi.tests.RandomImageTest')
+data.setCell(14, 3, 295);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'messageMustBeNonEmptyString')
+data.setCell(15, 2, 'com.dogapi.tests.RandomImageTest')
+data.setCell(15, 3, 294);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'shouldContainBulldogBreed')
+data.setCell(16, 2, 'com.dogapi.tests.BreedsListAllTest')
+data.setCell(16, 3, 293);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'shouldContainHoundBreed')
+data.setCell(17, 2, 'com.dogapi.tests.BreedsListAllTest')
+data.setCell(17, 3, 293);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'invalidBreedErrorResponseMustContainMessage')
+data.setCell(18, 2, 'com.dogapi.tests.BreedImagesTest')
+data.setCell(18, 3, 293);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'shouldContainLabradorBreed')
+data.setCell(19, 2, 'com.dogapi.tests.BreedsListAllTest')
+data.setCell(19, 3, 292);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'contentTypeMustBeJson')
+data.setCell(20, 2, 'com.dogapi.tests.RandomImageTest')
+data.setCell(20, 3, 291);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'imageUrlMustContainBreedsCdnPath')
+data.setCell(21, 2, 'com.dogapi.tests.RandomImageTest')
+data.setCell(21, 3, 290);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'shouldContainPoodleBreed')
+data.setCell(22, 2, 'com.dogapi.tests.BreedsListAllTest')
+data.setCell(22, 3, 289);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'shouldReturn200WithJsonContentType')
+data.setCell(23, 2, 'com.dogapi.tests.BreedsListAllTest')
+data.setCell(23, 3, 288);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'responseTimeShouldBeAcceptable')
+data.setCell(24, 2, 'com.dogapi.tests.BreedsListAllTest')
+data.setCell(24, 3, 288);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'statusFieldShouldBeSuccess')
+data.setCell(25, 2, 'com.dogapi.tests.RandomImageTest')
+data.setCell(25, 3, 288);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'subBreedImagesShouldReturn200')
+data.setCell(26, 2, 'com.dogapi.tests.BreedImagesTest')
+data.setCell(26, 3, 287);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'shouldReturn200ForKnownBreed')
+data.setCell(27, 2, 'com.dogapi.tests.BreedImagesTest')
+data.setCell(27, 3, 287);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'statusFieldShouldBeSuccessForValidBreed')
+data.setCell(28, 2, 'com.dogapi.tests.BreedImagesTest')
+data.setCell(28, 3, 285);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'subBreedImagesShouldReturn200')
+data.setCell(29, 2, 'com.dogapi.tests.BreedImagesTest')
+data.setCell(29, 3, 285);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'imageUrlMustHaveValidExtension')
+data.setCell(30, 2, 'com.dogapi.tests.RandomImageTest')
+data.setCell(30, 3, 285);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'shouldReturn200')
+data.setCell(31, 2, 'com.dogapi.tests.RandomImageTest')
+data.setCell(31, 3, 285);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'subBreedImagesShouldReturn200')
+data.setCell(32, 2, 'com.dogapi.tests.BreedImagesTest')
+data.setCell(32, 3, 284);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'invalidBreedStatusFieldShouldBeError')
+data.setCell(33, 2, 'com.dogapi.tests.BreedImagesTest')
+data.setCell(33, 3, 284);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'shouldReturn200ForKnownBreed')
+data.setCell(34, 2, 'com.dogapi.tests.BreedImagesTest')
+data.setCell(34, 3, 283);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'shouldReturn200ForKnownBreed')
+data.setCell(35, 2, 'com.dogapi.tests.BreedImagesTest')
+data.setCell(35, 3, 283);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'imageUrlMustUseHttps')
+data.setCell(36, 2, 'com.dogapi.tests.RandomImageTest')
+data.setCell(36, 3, 281);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'imageUrlMustMatchCdnPattern')
+data.setCell(37, 2, 'com.dogapi.tests.RandomImageTest')
+data.setCell(37, 3, 281);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'responseTimeShouldBeAcceptable')
+data.setCell(38, 2, 'com.dogapi.tests.RandomImageTest')
+data.setCell(38, 3, 281);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'responseTimeShouldBeAcceptable')
+data.setCell(39, 2, 'com.dogapi.tests.BreedImagesTest')
+data.setCell(39, 3, 280);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'subBreedImagesShouldReturn200')
+data.setCell(40, 2, 'com.dogapi.tests.BreedImagesTest')
+data.setCell(40, 3, 280);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'shouldReturn200ForKnownBreed')
+data.setCell(41, 2, 'com.dogapi.tests.BreedImagesTest')
+data.setCell(41, 3, 280);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'invalidBreedShouldReturn404')
+data.setCell(42, 2, 'com.dogapi.tests.BreedImagesTest')
+data.setCell(42, 3, 276);
+window.suiteTableData['Dog_API___Full_Test_Suite']= { tableData: data, tableDiv: 'times-div-Dog_API___Full_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <div id="times-div-Dog_API___Full_Test_Suite">
+              </div> <!-- times-div-Dog_API___Full_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Dog_API___Full_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Dog API - Full Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Dog_API___Full_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Dog_API___Full_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dogapi.tests.BreedsListAllTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">globalSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">breedNamesMustBeLowercase</span>
+                <span class="method-start">854 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">houndShouldHaveKnownSubBreeds</span>
+                <span class="method-start">4140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">messageShouldBeNonEmptyMap</span>
+                <span class="method-start">4447 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">responseTimeShouldBeAcceptable</span>
+                <span class="method-start">4745 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldContainBulldogBreed</span>
+                <span class="method-start">5035 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldContainHoundBreed</span>
+                <span class="method-start">5329 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldContainLabradorBreed</span>
+                <span class="method-start">5623 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldContainPoodleBreed</span>
+                <span class="method-start">5917 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldHaveMandatoryResponseFields</span>
+                <span class="method-start">6208 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldReturn200WithJsonContentType</span>
+                <span class="method-start">7071 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">statusFieldShouldBeSuccess</span>
+                <span class="method-start">7361 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subBreedValuesMustAlwaysBeArrays</span>
+                <span class="method-start">7661 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dogapi.tests.BreedImagesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">globalSetup</span>
+                <span class="method-start">8059 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">imagListMustBeNonEmptyForLabrador</span>
+                <span class="method-start">8060 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">imageMessageMustBeAnArrayOfStrings</span>
+                <span class="method-start">8365 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">imageUrlsMustContainBreedName</span>
+                <span class="method-start">8702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">imageUrlsMustMatchCdnPattern</span>
+                <span class="method-start">9001 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">imageUrlsMustUseHttps</span>
+                <span class="method-start">9301 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidBreedErrorResponseMustContainMessage</span>
+                <span class="method-start">9598 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidBreedShouldReturn404</span>
+                <span class="method-start">9893 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidBreedStatusFieldShouldBeError</span>
+                <span class="method-start">10170 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">responseTimeShouldBeAcceptable</span>
+                <span class="method-start">10456 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldReturn200ForKnownBreed(labrador)</span>
+                <span class="method-start">10739 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldReturn200ForKnownBreed(hound)</span>
+                <span class="method-start">11023 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldReturn200ForKnownBreed(bulldog)</span>
+                <span class="method-start">11507 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldReturn200ForKnownBreed(retriever)</span>
+                <span class="method-start">11795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldReturn200ForKnownBreed(poodle)</span>
+                <span class="method-start">12080 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">statusFieldShouldBeSuccessForValidBreed</span>
+                <span class="method-start">12361 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subBreedImagesShouldReturn200(hound, afghan)</span>
+                <span class="method-start">12647 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subBreedImagesShouldReturn200(hound, blood)</span>
+                <span class="method-start">12933 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subBreedImagesShouldReturn200(bulldog, english)</span>
+                <span class="method-start">13219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subBreedImagesShouldReturn200(retriever, golden)</span>
+                <span class="method-start">13500 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dogapi.tests.RandomImageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">globalSetup</span>
+                <span class="method-start">13792 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">contentTypeMustBeJson</span>
+                <span class="method-start">13793 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">endpointMustBeConsistentlyReachable</span>
+                <span class="method-start">14085 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">imageUrlMustContainBreedsCdnPath</span>
+                <span class="method-start">14933 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">imageUrlMustHaveValidExtension</span>
+                <span class="method-start">15224 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">imageUrlMustMatchCdnPattern</span>
+                <span class="method-start">15510 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">imageUrlMustUseHttps</span>
+                <span class="method-start">15792 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">messageMustBeNonEmptyString</span>
+                <span class="method-start">16074 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">repeatedCallsShouldReturnVariedImages</span>
+                <span class="method-start">16369 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">responseMustHaveMandatoryFields</span>
+                <span class="method-start">17781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">responseTimeShouldBeAcceptable</span>
+                <span class="method-start">18077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldReturn200</span>
+                <span class="method-start">18359 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">statusFieldShouldBeSuccess</span>
+                <span class="method-start">18645 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

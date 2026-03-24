@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  Random Image - GET /breeds/image/random</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Random Image - GET /breeds/image/random</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 24 10:25:58 BRT 2026</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5142 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.dogapi.tests.RandomImageTest.endpointMustBeConsistentlyReachable()'><b>endpointMustBeConsistentlyReachable</b><br>Test class: com.dogapi.tests.RandomImageTest<br>Test method: Endpoint must be consistently reachable (idempotency check)</td>
+<td></td>
+<td>0</td>
+<td>com.dogapi.tests.RandomImageTest@7d0cc890</td></tr>
+<tr>
+<td title='com.dogapi.tests.RandomImageTest.imageUrlMustHaveValidExtension()'><b>imageUrlMustHaveValidExtension</b><br>Test class: com.dogapi.tests.RandomImageTest<br>Test method: Image URL must end with a valid image file extension</td>
+<td></td>
+<td>0</td>
+<td>com.dogapi.tests.RandomImageTest@7d0cc890</td></tr>
+<tr>
+<td title='com.dogapi.tests.RandomImageTest.messageMustBeNonEmptyString()'><b>messageMustBeNonEmptyString</b><br>Test class: com.dogapi.tests.RandomImageTest<br>Test method: Message field must be a non-empty string</td>
+<td></td>
+<td>0</td>
+<td>com.dogapi.tests.RandomImageTest@7d0cc890</td></tr>
+<tr>
+<td title='com.dogapi.tests.RandomImageTest.repeatedCallsShouldReturnVariedImages()'><b>repeatedCallsShouldReturnVariedImages</b><br>Test class: com.dogapi.tests.RandomImageTest<br>Test method: Repeated calls should return images from different breeds (randomness check)</td>
+<td></td>
+<td>1</td>
+<td>com.dogapi.tests.RandomImageTest@7d0cc890</td></tr>
+<tr>
+<td title='com.dogapi.tests.RandomImageTest.responseMustHaveMandatoryFields()'><b>responseMustHaveMandatoryFields</b><br>Test class: com.dogapi.tests.RandomImageTest<br>Test method: Response must contain 'message' and 'status' fields</td>
+<td></td>
+<td>0</td>
+<td>com.dogapi.tests.RandomImageTest@7d0cc890</td></tr>
+<tr>
+<td title='com.dogapi.tests.RandomImageTest.shouldReturn200()'><b>shouldReturn200</b><br>Test class: com.dogapi.tests.RandomImageTest<br>Test method: GET /breeds/image/random should return HTTP 200</td>
+<td></td>
+<td>0</td>
+<td>com.dogapi.tests.RandomImageTest@7d0cc890</td></tr>
+<tr>
+<td title='com.dogapi.tests.RandomImageTest.imageUrlMustUseHttps()'><b>imageUrlMustUseHttps</b><br>Test class: com.dogapi.tests.RandomImageTest<br>Test method: Image URL must use HTTPS scheme</td>
+<td></td>
+<td>0</td>
+<td>com.dogapi.tests.RandomImageTest@7d0cc890</td></tr>
+<tr>
+<td title='com.dogapi.tests.RandomImageTest.imageUrlMustContainBreedsCdnPath()'><b>imageUrlMustContainBreedsCdnPath</b><br>Test class: com.dogapi.tests.RandomImageTest<br>Test method: Image URL must contain 'images.dog.ceo/breeds/' in the path</td>
+<td></td>
+<td>0</td>
+<td>com.dogapi.tests.RandomImageTest@7d0cc890</td></tr>
+<tr>
+<td title='com.dogapi.tests.RandomImageTest.imageUrlMustMatchCdnPattern()'><b>imageUrlMustMatchCdnPattern</b><br>Test class: com.dogapi.tests.RandomImageTest<br>Test method: Image URL must match the expected CDN pattern</td>
+<td></td>
+<td>0</td>
+<td>com.dogapi.tests.RandomImageTest@7d0cc890</td></tr>
+<tr>
+<td title='com.dogapi.tests.RandomImageTest.contentTypeMustBeJson()'><b>contentTypeMustBeJson</b><br>Test class: com.dogapi.tests.RandomImageTest<br>Test method: Response Content-Type header must be application/json</td>
+<td></td>
+<td>0</td>
+<td>com.dogapi.tests.RandomImageTest@7d0cc890</td></tr>
+<tr>
+<td title='com.dogapi.tests.RandomImageTest.statusFieldShouldBeSuccess()'><b>statusFieldShouldBeSuccess</b><br>Test class: com.dogapi.tests.RandomImageTest<br>Test method: Status field must equal 'success'</td>
+<td></td>
+<td>0</td>
+<td>com.dogapi.tests.RandomImageTest@7d0cc890</td></tr>
+<tr>
+<td title='com.dogapi.tests.RandomImageTest.responseTimeShouldBeAcceptable()'><b>responseTimeShouldBeAcceptable</b><br>Test class: com.dogapi.tests.RandomImageTest<br>Test method: Response time should be under 5 seconds</td>
+<td></td>
+<td>0</td>
+<td>com.dogapi.tests.RandomImageTest@7d0cc890</td></tr>
+</table><p>
+</body>
+</html>

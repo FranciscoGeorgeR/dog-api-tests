@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Dog API - Full Test Suite" verbose="2" parallel="false">
+
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Breeds List All - GET /breeds/list/all">
+        <classes>
+            <class name="com.dogapi.tests.BreedsListAllTest"/>
+        </classes>
+    </test>
+
+    <test name="Breed Images - GET /breed/{breed}/images">
+        <classes>
+            <class name="com.dogapi.tests.BreedImagesTest"/>
+        </classes>
+    </test>
+
+    <test name="Random Image - GET /breeds/image/random">
+        <classes>
+            <class name="com.dogapi.tests.RandomImageTest"/>
+        </classes>
+    </test>
+
+</suite>
