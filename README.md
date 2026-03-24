@@ -92,7 +92,7 @@ dog-api-tests/
 
 ### 1. Instalar o Java JDK 11
 
-**Windows / macOS / Linux:** Baixe o JDK 11 em https://adoptium.net e siga o instalador.
+**Windows / macOS / Linux:** Baixe o JDK 11 em [Java JDK 11](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html) e siga o instalador.
 
 Após instalar, confirme:
 ```bash
@@ -195,6 +195,8 @@ mvn allure:report
 # Abrir no navegador automaticamente
 mvn allure:serve
 ```
+
+O relatório HTML é gerado em: `target/site/allure-maven-plugin/index.html`
 
 ### O que o relatório contém
 
